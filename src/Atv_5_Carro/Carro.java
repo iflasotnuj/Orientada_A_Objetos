@@ -1,4 +1,4 @@
-import javax.lang.model.element.NestingKind;
+package Atv_5_Carro;
 
 public class Carro {
     String marca;
@@ -16,8 +16,5 @@ public class Carro {
         System.out.println("ano: " + ano);
     }
 
-    public static void main(String[] args) {
-        Carro meuCarro = new Carro("Nissan", "Toyota", 1999);
-        meuCarro.exibirDetalhes();
-    }
+
 }

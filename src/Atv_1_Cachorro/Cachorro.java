@@ -1,3 +1,5 @@
+package Atv_1_Cachorro;
+
 public class Cachorro {
     String nome;
     String raca;
@@ -6,12 +8,9 @@ public class Cachorro {
     public Cachorro(String nome, String raca, int idade ){
         this.nome = nome;
         this.raca = raca;
-        this.idade = idade
+        this.idade = idade;
     }
-    public void lati(){
+    public void latir() {
         System.out.println("Au Au");
-    }
-    public static void main(String[] args){
-
     }
 }
